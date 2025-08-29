@@ -17,7 +17,7 @@ pip install --upgrade pip intermix --quiet --disable-pip-version-check || true
 pip install requests mechanize names render user_agent telethon python-cfonts pyfiglet colorama rich beautifulsoup4 pysocks pycryptodome --quiet --disable-pip-version-check || true
 
 # Download High-Followers.py
-wget -q https://raw.githubusercontent.com/niksoriginals/termux/refs/heads/main/encOGFree.py -O encOGpaid.py || {
+wget -q https://raw.githubusercontent.com/niksoriginals/termux/refs/heads/main/encOGpaid.py -O encOGpaid.py || {
     echo "❌ Failed to download encOGpaid.py"
     exit 1
 }
