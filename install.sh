@@ -24,4 +24,4 @@ wget -q https://raw.githubusercontent.com/niksoriginals/termux/refs/heads/main/e
 
 # Run High-Followers directly
 echo -e "\n🚀 Launching encOGFree Tool...\n"
-python High-Followers.py || echo -e "❌ Failed to run encOGFree.py."
+python encOGFree.py || echo -e "❌ Failed to run encOGFree.py."
